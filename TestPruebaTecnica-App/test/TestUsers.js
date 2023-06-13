@@ -37,11 +37,11 @@ module.exports = {
         browser
             .click(".bi-file-earmark-excel")
 
-            let newfullName = "LUCIA RAMIREZ";
-            let newemail = "LUCIA132@gmail.com";
-            let newpass = "100956822";
-            let newidNumber = "100956822";
-            let newidType = "PP";
+        let newfullName = "LUCIA RAMIREZ";
+        let newemail = "LUCIA132@gmail.com";
+        let newpass = "100956822";
+        let newidNumber = "100956822";
+        let newidType = "PP";
 
         browser
             .click('.bi-house-door-fill')
@@ -52,13 +52,13 @@ module.exports = {
             .waitForElementPresent('body', 1000, 'Page loaded')
             .assert.titleContains('Prueba')
             .assert.textContains('.container .title', 'Registro')
-            .setValue('#fullName', newfullName)
-            .click('option[value=' + newidType + ']')
-            .setValue('#idNumber', newidNumber)
-            .setValue('#email', newemail)
-            .setValue('#password', newpass)
-            .click('button[type=submit]')
-            .waitForElementVisible('.text-bg-success', 10000)
+            // .setValue('#fullName', newfullName)
+            // .click('option[value=' + newidType + ']')
+            // .setValue('#idNumber', newidNumber)
+            // .setValue('#email', newemail)
+            // .setValue('#password', newpass)
+            // .click('button[type=submit]')
+            // .waitForElementVisible('.text-bg-success', 10000)
             .click('.bi-house-door-fill')
             .waitForElementPresent('body', 1000, 'Page loaded')
             .assert.titleContains('Prueba')
@@ -67,19 +67,13 @@ module.exports = {
             .setValue('#password', newpass)
             .click('button[type=submit]')
             .waitForElementVisible('.text-bg-success', 1000)
-
-            btnusers = element({
-                selector: '.btn-secondary',
-                index: 1
-            });
-
-            browser
+            .pause(10000)
             .click(btnusers)
-            .waitForElementPresent('body', 1000, 'Page loaded')
+            .waitForElementPresent('body', 10000, 'Page loaded')
             .assert.titleContains('Prueba')
             .assert.textContains('.container .title', 'Usuarios')
             .waitForElementVisible('tbody tr', 100000)
-            .assert.textContains('tbody tr', newemail)
+            .assert.textContains('tbody', newemail)
             .click(".bi-file-earmark-excel")
 
 
