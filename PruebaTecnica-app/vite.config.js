@@ -12,7 +12,13 @@ export default defineConfig({
         'firebase',
         'firebase/firestore',
         'firebase/auth',
-        'primereact'
+        'primereact',
+        'primereact/api',
+        'primereact/datatable',
+        'primereact/column',
+        'primereact/inputtext',
+        'primereact/button',
+        'primereact/tooltip',
       ]
     }
   }
