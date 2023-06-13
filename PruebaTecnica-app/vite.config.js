@@ -27,5 +27,12 @@ export default defineConfig({
         'file-saver',
       ]
     }
-  }
+  },
+  alias: [
+    {
+        // this is required for the SCSS modules
+        find: /^~(.*)$/,
+        replacement: '$1',
+    },
+],
 })
