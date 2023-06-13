@@ -20,5 +20,5 @@ steps:
     cd PruebaTecnica-app
     npm install vite
     npm install
-    npm run build
+    npm run dev
   displayName: 'npm install and build'
