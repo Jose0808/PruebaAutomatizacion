@@ -12,6 +12,8 @@ export default defineConfig({
         'firebase',
         'firebase/firestore',
         'firebase/auth',
+        'firebase/app',
+        'firebase/analytics',
         'primereact',
         'primereact/api',
         'primereact/datatable',
@@ -22,7 +24,7 @@ export default defineConfig({
         'jspdf',
         'jspdf-autotable',
         'xlsx',
-        'file-saver'
+        'file-saver',
       ]
     }
   }
