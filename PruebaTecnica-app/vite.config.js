@@ -9,7 +9,7 @@ export default defineConfig({
       external: [
         'react-router-dom',
         'react-bootstrap',
-        'firebase/auth',
+        'firebase',
         'primereact'
       ]
     }
