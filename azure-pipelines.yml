@@ -18,6 +18,7 @@ steps:
 
 - script: |
     cd PruebaTecnica-app
+    npm install vite
     npm install
     npm run build
   displayName: 'npm install and build'
