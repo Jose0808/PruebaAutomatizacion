@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test.TestRegister"
+    errors="0" failures="1" hostname="" id="" package="TestRegister" skipped="0"
+    tests="1" time="29.87" timestamp="">
+  
+    <testcase name="Validar la vista de Registro" classname="test.TestRegister" time="14.93" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;tbody tr&gt; contains text &#39;David@hotmail.com&#39; in 5000ms - expected &#34;contains text &#39;David@hotmail.com&#39;&#34; but got: &#34;does not contain &#39;David@hotmail.com&#39;&#34; (5403ms)">    at Validar la vista de Registro (D:\Pruebas\PruebaAutomatizacion\TestPruebaTecnica-app\test\TestRegister.js:50:25)</failure>
+<system-out>[[ATTACHMENT|D:\Pruebas\PruebaAutomatizacion\TestPruebaTecnica-app\screens\test\TestRegister\Validar-la-vista-de-Registro_FAILED_Jun-13-2023-164119-GMT-0500.png]]</system-out>
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

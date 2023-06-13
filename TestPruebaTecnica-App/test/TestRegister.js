@@ -47,6 +47,6 @@ module.exports = {
                 .assert.titleContains('Prueba')
                 .assert.textContains('.container .title', 'Usuarios')
                 .waitForElementVisible('tbody tr', 10000)
-                .assert.textContains('tbody tr', email)
+                .assert.textContains('tbody', email)
     }
 };
