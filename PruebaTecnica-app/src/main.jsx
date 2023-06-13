@@ -4,7 +4,7 @@ import './styles/Style.scss'
 import { Login } from "./Login";
 import { Register } from "./Register";
 import { Users } from "./Users";
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

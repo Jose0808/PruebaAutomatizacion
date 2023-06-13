@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Form, Button, Toast, Col, Row } from 'react-bootstrap';
-import { GoogleAuthProvider, signInWithEmailAndPassword } from 'firebase/auth'
+import { signInWithEmailAndPassword } from 'firebase/auth'
 import { FirebaseAuth } from './firebase/DatabaseConn'
 import { Link } from "react-router-dom";
 
@@ -11,7 +11,6 @@ export const Login = () => {
     const [showToast, setToast] = useState(false);
     const [message, setmessage] = useState("Error en el inicio de sesion");
     const [toastType, settoastType] = useState("text-bg-danger");
-    const [isvalid, setIsvalid] = useState(false);
 
     const LoginValidate = async (form) => {
         form.preventDefault();

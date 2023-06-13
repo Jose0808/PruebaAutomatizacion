@@ -30,7 +30,6 @@ export const Users = () => {
             dataUsers.push(data);
         });
         setUsers(dataUsers);
-        setTableBody(dataUsers);
         setLoading(false);
 
 

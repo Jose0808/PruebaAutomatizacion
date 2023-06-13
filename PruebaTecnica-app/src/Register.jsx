@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Form, Button, Toast, Col, Row } from 'react-bootstrap';
-import { GoogleAuthProvider, createUserWithEmailAndPassword } from 'firebase/auth'
+import { createUserWithEmailAndPassword } from 'firebase/auth'
 import { setDoc, doc } from "firebase/firestore";
 import { FirebaseAuth, db } from './firebase/DatabaseConn'
 import { Link } from "react-router-dom";
