@@ -10,6 +10,7 @@ export default defineConfig({
         'react-router-dom',
         'react-bootstrap',
         'firebase',
+        'firebase/firestore',
         'firebase/auth',
         'primereact'
       ]
