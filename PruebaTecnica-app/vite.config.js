@@ -19,6 +19,10 @@ export default defineConfig({
         'primereact/inputtext',
         'primereact/button',
         'primereact/tooltip',
+        'jspdf',
+        'jspdf-autotable',
+        'xlsx',
+        'file-saver'
       ]
     }
   }
