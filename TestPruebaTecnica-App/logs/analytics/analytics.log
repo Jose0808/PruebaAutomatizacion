@@ -1,0 +1,1 @@
+{"name":"nw_test_run","params":{"arg_parallel":"undefined","browserName":"chrome","testWorkersEnabled":false,"use_xpath":false,"isBstack":false,"test_runner":"default","event_time":1686623749645000,"env_os":"win32/10.0.22000/Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz","env_lang":"en_US.UTF-8","env_nw_version":"2.6.21","env_node_version":"node v18.13.0"}}

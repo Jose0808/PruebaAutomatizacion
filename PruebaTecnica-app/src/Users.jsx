@@ -146,6 +146,8 @@ export const Users = () => {
             <Col className='d-flex align-items-center justify-content-start'>
                 <Link to='/Login'><a class="btn btn-secondary bi bi-house-door-fill"></a></Link>
             </Col>
+            <h1 className='text-center title'>Usuarios</h1>
+            <hr />
             <Row className='row mt-4 pl-5 pr-5'>
                 <Tooltip target=".export-buttons>button" position="bottom" />
                 <DataTable value={users} paginator rows={10} dataKey="id" filters={filters} filterDisplay="row" loading={loading}

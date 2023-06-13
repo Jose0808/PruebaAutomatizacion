@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="1">
+
+  <testsuite name="test.TestUsers"
+    errors="0" failures="2" hostname="" id="" package="TestUsers" skipped="0"
+    tests="1" time="30.77" timestamp="">
+  
+    <testcase name="Validar la vista de los Usuarios" classname="test.TestUsers" time="15.38" assertions="9">  <failure message="Assignment to constant variable.">TypeError: Assignment to constant variable.
+    at Validar la vista de los Usuarios (D:\Pruebas\PruebaAutomatizacion\TestPruebaTecnica-App\test\TestUsers.js:71:22)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;tbody tr&gt; to be present for 10000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (10362ms)">    at Validar la vista de los Usuarios (D:\Pruebas\PruebaAutomatizacion\TestPruebaTecnica-App\test\TestUsers.js:33:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

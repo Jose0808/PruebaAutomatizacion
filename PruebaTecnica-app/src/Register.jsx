@@ -55,7 +55,7 @@ export const Register = () => {
             <Col className='d-flex align-items-center justify-content-start'>
                 <Link to='/Login'><a class="btn btn-secondary bi bi-house-door-fill"></a></Link>
             </Col>
-            <h1 className='text-center'>Registro</h1>
+            <h1 className='text-center title'>Registro</h1>
             <hr />
             <Row className='row mt-4 pl-5 pr-5'>
                 <Form onSubmit={Register}>

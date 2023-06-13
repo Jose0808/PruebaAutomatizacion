@@ -44,7 +44,7 @@ export const Login = () => {
                     <Toast.Body>{message}</Toast.Body>
                 </Toast>
             </Col>
-            <h1 className='text-center'>Ingreso</h1>
+            <h1 className='text-center title'>Ingreso</h1>
             <hr />
             <Row className='row mt-4 pl-5 pr-5'>
                 <Form onSubmit={LoginValidate}>

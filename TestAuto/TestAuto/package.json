@@ -1,9 +1,0 @@
-{
-  "name": "test-auto",
-  "version": "0.0.0",
-  "description": "TestAuto",
-  "main": "app.js",
-  "author": {
-    "name": ""
-  }
-}
